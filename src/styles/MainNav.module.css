@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  width: 245px;
+  height: calc(100vh - var(--header-height));
+  margin-top: var(--header-height);
+  border: 1px solid #CFCFCF;
+  background: #eaeaea;
+}
+
+.collapsible {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.toggleButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 40px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}

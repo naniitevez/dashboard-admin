@@ -1,0 +1,6 @@
+.header {
+  background: #fff;
+  width: 100%;
+  height: var(--header-height);
+  position: fixed;
+}
